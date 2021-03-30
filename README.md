@@ -4,7 +4,9 @@
 
 [Тема на Lolzteam](https://lolz.guru/threads/2389937/)
 
-[Группа ВКонтакте](https://vk.com/club203610366) с чатами, для помощи новичкам
+[Автор русификатора ВКонтакте](https://vk.com/id183336627) 
+
+[Группа ВКонтакте](https://vk.com/club203610366) с чатами, для помощи новичкам там есть и беседа
 
 ## Какие настройки присутствуют? Настройка в Config.json
 ![image](https://i.imgur.com/SWIq9ZQ.png)
@@ -46,8 +48,11 @@
 - Устанавливаем Termux с Play Market
 - Запускаем Termux
 - Пишем pkg install -y git
-- Далее git clone https://github.com/vuchaev2015/slaves-bot-vk
+- Далее git clone https://github.com/vuchaev2015/slaves-bot-vk // это версия без русификатора 
 - cd slaves-bot-vk
+- sh fast-setup.sh
+- Далее git clone https://github.com/sblroff1337/Bot_rab_vk // это версия с русификатором
+- cd Bot_rab_vk
 - sh fast-setup.sh
 - Настраиваем конфиг. Nano config.json
 ![image](https://i.imgur.com/AnX1Cif.png)
