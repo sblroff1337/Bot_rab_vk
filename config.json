@@ -1,0 +1,27 @@
+{
+  "authorization": "000000000",
+  "windows_title": true,
+  
+  "telegram_settings": {
+    "telegram_notification": false,
+    "telegram_user_id": 698806893,
+    "telegram_bot_token": "000000000000000",
+    "telegram_notify_error": {
+      "job_name": false,
+      "buy_slave": false,
+      "buy_fetter": false,
+      "sale_slave": false
+    }
+  },
+  
+  "general_settings": {
+    "min_delay": 1,
+    "max_delay": 5,
+    "min_price": 20,
+    "max_price": 80000,
+    "job_name": ["312 bot farm","312 farm bot","312farmilka ","312boterska","312бот фармила","312 фармила бот","312","не трогай 312","312"],
+    "buy_slave": true,
+    "buy_fetter": false,
+    "upgrade_slave": true
+  }
+}
