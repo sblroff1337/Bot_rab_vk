@@ -285,7 +285,7 @@ while True:
                 if config['other_settings']['trigger_user_id'] <= 0:
                     randomid = randint(500, 647000000)
                     slave = userProfile(randomid)
-                    print('Slave: ' + str(randomid))
+                    print('Раб его ID: ' + str(randomid))
 
                     if int(myProfile()['me']['balance']) >= int(slave['fetter_price']):
                         if int(slave['fetter_to']) == 0:
