@@ -303,7 +303,7 @@ while True:
                                                   buySlave(randomid)
                                                   if int(userProfile(randomid)['price']/1.49998088027) >= 26151:
                                                     print(f'Проапал раба LvL up. ID раба: {randomid}')
-                                                     if config['telegram_settings']['telegram_notification'] == True:
+                                                    if config['telegram_settings']['telegram_notification'] == True:
                                                         requests.get(f"https://api.telegram.org/bot{telegram_bot_token}/sendMessage?chat_id={telegram_user_id}&text=Проапал раба LvL up. ID раба: {randomid}")
                                            else:
                                             buySlave(randomid)
